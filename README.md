@@ -60,10 +60,5 @@ examples and the quiz endpoint checklist. Import
 [Clinic-Quiz.postman_collection.json](Clinic-Quiz.postman_collection.json) into
 Postman to run assertions for the quiz endpoints. Its collection variables
 default to the local seed record IDs and can be edited for another database.
-Seed data is not loaded automatically.
-
-## Build
-
-```powershell
-.\mvnw.cmd clean package -DskipTests
+Seed data is not loaded automatically
 ```
